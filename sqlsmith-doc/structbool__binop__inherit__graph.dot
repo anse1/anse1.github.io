@@ -1,0 +1,19 @@
+digraph "bool_binop"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{bool_binop\n|+ lhs\l+ rhs\l|+ bool_binop()\l+ out()\l+ accept()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{bool_expr\n||+ ~bool_expr()\l+ bool_expr()\l+ factory()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structbool__expr.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{value_expr\n|+ type\l|+ out()\l+ ~value_expr()\l+ value_expr()\l+ factory()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structvalue__expr.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{prod\n|+ pprod\l+ scope\l+ level\l+ retries\l+ retry_limit\l|+ prod()\l+ indent()\l+ out()\l+ match()\l+ accept()\l+ fail()\l+ retry()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structprod.html",tooltip="Base class for AST nodes."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{bool_term\n|+ op\l|+ ~bool_term()\l+ out()\l+ bool_term()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structbool__term.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{comparison_op\n|+ oper\l|+ comparison_op()\l+ ~comparison_op()\l+ out()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcomparison__op.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{distinct_pred\n||+ distinct_pred()\l+ ~distinct_pred()\l+ out()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structdistinct__pred.html",tooltip=" "];
+}

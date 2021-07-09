@@ -1,0 +1,6 @@
+<map id="join_cond" name="join_cond">
+<area shape="rect" id="node1" title=" " alt="" coords="111,277,221,369"/>
+<area shape="rect" id="node3" href="$structexpr__join__cond.html" title=" " alt="" coords="5,417,151,539"/>
+<area shape="rect" id="node4" href="$structsimple__join__cond.html" title=" " alt="" coords="175,432,335,524"/>
+<area shape="rect" id="node2" href="$structprod.html" title="Base class for AST nodes." alt="" coords="113,5,219,229"/>
+</map>

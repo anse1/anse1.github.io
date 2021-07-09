@@ -1,0 +1,6 @@
+<map id="insert_stmt" name="insert_stmt">
+<area shape="rect" id="node1" title=" " alt="" coords="15,432,147,553"/>
+<area shape="rect" id="node4" href="$structupsert__stmt.html" title=" " alt="" coords="13,601,149,752"/>
+<area shape="rect" id="node2" href="$structmodifying__stmt.html" title=" " alt="" coords="5,277,156,384"/>
+<area shape="rect" id="node3" href="$structprod.html" title="Base class for AST nodes." alt="" coords="28,5,133,229"/>
+</map>

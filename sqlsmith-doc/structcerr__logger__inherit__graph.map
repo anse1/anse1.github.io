@@ -1,0 +1,5 @@
+<map id="cerr_logger" name="cerr_logger">
+<area shape="rect" id="node1" title="stderr logger" alt="" coords="35,329,148,480"/>
+<area shape="rect" id="node2" href="$structstats__collecting__logger.html" title="logger for statistics collection" alt="" coords="5,160,177,281"/>
+<area shape="rect" id="node3" href="$structlogger.html" title="logger base class" alt="" coords="35,5,148,112"/>
+</map>

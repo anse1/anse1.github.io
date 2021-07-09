@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structdut__base.html" title=" " alt="" coords="44,63,125,89"/>
+<area shape="rect" id="node2" href="$structdut__libpq.html" title=" " alt="" coords="240,56,323,83"/>
+<area shape="rect" id="node3" href="$structdut__monetdb.html" title=" " alt="" coords="227,107,335,133"/>
+<area shape="rect" id="node4" href="$structdut__pqxx.html" title=" " alt="" coords="240,5,323,32"/>
+<area shape="rect" id="node5" href="$structdut__sqlite.html" title=" " alt="" coords="238,157,325,184"/>
+<area shape="rect" id="node6" href="$structmonetdb__connection.html" title=" " alt="" coords="5,120,164,147"/>
+<area shape="rect" id="node7" href="$structschema__monetdb.html" title=" " alt="" coords="212,208,351,235"/>
+<area shape="rect" id="node8" href="$structschema.html" title=" " alt="" coords="48,259,121,285"/>
+<area shape="rect" id="node9" href="$structschema__pqxx.html" title=" " alt="" coords="225,309,337,336"/>
+<area shape="rect" id="node10" href="$structschema__sqlite.html" title=" " alt="" coords="223,259,339,285"/>
+<area shape="rect" id="node11" href="$structsqlite__connection.html" title=" " alt="" coords="17,196,153,223"/>
+</map>

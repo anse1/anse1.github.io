@@ -1,0 +1,5 @@
+<map id="dut_monetdb" name="dut_monetdb">
+<area shape="rect" id="node1" title=" " alt="" coords="63,160,196,252"/>
+<area shape="rect" id="node2" href="$structdut__base.html" title=" " alt="" coords="5,20,91,97"/>
+<area shape="rect" id="node3" href="$structmonetdb__connection.html" title=" " alt="" coords="115,5,309,112"/>
+</map>

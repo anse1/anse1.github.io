@@ -1,0 +1,11 @@
+digraph "pqxx_logger"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{pqxx_logger\n|+ id\l+ c\l|+ pqxx_logger()\l+ generated()\l+ error()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="logger to postgres database"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{stats_collecting_logger\n|+ queries\l+ sum_nodes\l+ sum_height\l+ sum_retries\l|+ generated()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structstats__collecting__logger.html",tooltip="logger for statistics collection"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{logger\n||+ generated()\l+ executed()\l+ error()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlogger.html",tooltip="logger base class"];
+}

@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structlogger.html" title="logger base class" alt="" coords="5,81,68,108"/>
+<area shape="rect" id="node2" href="$structast__logger.html" title=" " alt="" coords="157,5,247,32"/>
+<area shape="rect" id="node3" href="$structimpedance__feedback.html" title=" " alt="" coords="121,56,283,83"/>
+<area shape="rect" id="node4" href="$structquery__dumper.html" title="logger to dump all generated queries" alt="" coords="144,107,260,133"/>
+<area shape="rect" id="node5" href="$structstats__collecting__logger.html" title="logger for statistics collection" alt="" coords="116,157,288,184"/>
+<area shape="rect" id="node6" href="$structcerr__logger.html" title="stderr logger" alt="" coords="340,132,435,159"/>
+<area shape="rect" id="node7" href="$structpqxx__logger.html" title="logger to postgres database" alt="" coords="336,183,439,209"/>
+</map>

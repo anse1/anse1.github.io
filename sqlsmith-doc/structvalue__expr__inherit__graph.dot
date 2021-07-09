@@ -1,0 +1,41 @@
+digraph "value_expr"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{value_expr\n|+ type\l|+ out()\l+ ~value_expr()\l+ value_expr()\l+ factory()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{prod\n|+ pprod\l+ scope\l+ level\l+ retries\l+ retry_limit\l|+ prod()\l+ indent()\l+ out()\l+ match()\l+ accept()\l+ fail()\l+ retry()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structprod.html",tooltip="Base class for AST nodes."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{atomic_subselect\n|+ tab\l+ col\l+ offset\l+ agg\l|+ atomic_subselect()\l+ out()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structatomic__subselect.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{bool_expr\n||+ ~bool_expr()\l+ bool_expr()\l+ factory()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structbool__expr.html",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{bool_binop\n|+ lhs\l+ rhs\l|+ bool_binop()\l+ out()\l+ accept()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structbool__binop.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{bool_term\n|+ op\l|+ ~bool_term()\l+ out()\l+ bool_term()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structbool__term.html",tooltip=" "];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{comparison_op\n|+ oper\l|+ comparison_op()\l+ ~comparison_op()\l+ out()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcomparison__op.html",tooltip=" "];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{distinct_pred\n||+ distinct_pred()\l+ ~distinct_pred()\l+ out()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structdistinct__pred.html",tooltip=" "];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{exists_predicate\n|+ subquery\l|+ ~exists_predicate()\l+ exists_predicate()\l+ out()\l+ accept()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structexists__predicate.html",tooltip=" "];
+  Node4 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node10 [label="{null_predicate\n|+ negate\l+ expr\l|+ ~null_predicate()\l+ null_predicate()\l+ out()\l+ accept()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnull__predicate.html",tooltip=" "];
+  Node4 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node11 [label="{truth_value\n|+ op\l|+ ~truth_value()\l+ out()\l+ truth_value()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structtruth__value.html",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node12 [label="{case_expr\n|+ condition\l+ true_expr\l+ false_expr\l|+ case_expr()\l+ out()\l+ accept()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcase__expr.html",tooltip=" "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node13 [label="{coalesce\n|+ abbrev_\l+ value_exprs\l|+ ~coalesce()\l+ coalesce()\l+ out()\l+ accept()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcoalesce.html",tooltip=" "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node14 [label="{nullif\n||+ ~nullif()\l+ nullif()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnullif.html",tooltip=" "];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node15 [label="{column_reference\n|+ reference\l|+ column_reference()\l+ out()\l+ ~column_reference()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structcolumn__reference.html",tooltip=" "];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node16 [label="{const_expr\n|+ expr\l|+ const_expr()\l+ out()\l+ ~const_expr()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structconst__expr.html",tooltip=" "];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node17 [label="{funcall\n|+ proc\l+ is_aggregate\l+ parms\l|+ out()\l+ ~funcall()\l+ funcall()\l+ accept()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structfuncall.html",tooltip=" "];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node18 [label="{window_function\n|+ partition_by\l+ order_by\l+ aggregate\l|+ out()\l+ ~window_function()\l+ window_function()\l+ accept()\l+ allowed()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structwindow__function.html",tooltip=" "];
+}

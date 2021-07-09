@@ -1,0 +1,12 @@
+<map id="log.hh" name="log.hh">
+<area shape="rect" id="node1" title="logging" alt="" coords="251,5,314,32"/>
+<area shape="rect" id="node2" href="$dump_8hh.html" title="Dump syntax trees as GraphML." alt="" coords="115,80,194,107"/>
+<area shape="rect" id="node4" href="$sqlsmith_8cc_source.html" title=" " alt="" coords="107,155,203,181"/>
+<area shape="rect" id="node5" href="$impedance_8cc_source.html" title=" " alt="" coords="227,155,339,181"/>
+<area shape="rect" id="node6" href="$impedance_8hh.html" title="feedback to the grammar about failed productions" alt="" coords="340,80,455,107"/>
+<area shape="rect" id="node9" href="$log_8cc_source.html" title=" " alt="" coords="675,155,735,181"/>
+<area shape="rect" id="node3" href="$dump_8cc_source.html" title=" " alt="" coords="5,155,83,181"/>
+<area shape="rect" id="node7" href="$expr_8cc_source.html" title=" " alt="" coords="363,155,432,181"/>
+<area shape="rect" id="node8" href="$grammar_8cc_source.html" title=" " alt="" coords="457,155,557,181"/>
+<area shape="rect" id="node10" href="$prod_8cc.html" title="Base class for grammar productions." alt="" coords="581,155,651,181"/>
+</map>

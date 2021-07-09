@@ -1,0 +1,9 @@
+<map id="bool_binop" name="bool_binop">
+<area shape="rect" id="node1" title=" " alt="" coords="173,601,292,723"/>
+<area shape="rect" id="node5" href="$structbool__term.html" title=" " alt="" coords="5,771,129,877"/>
+<area shape="rect" id="node6" href="$structcomparison__op.html" title=" " alt="" coords="154,771,311,877"/>
+<area shape="rect" id="node7" href="$structdistinct__pred.html" title=" " alt="" coords="336,771,479,877"/>
+<area shape="rect" id="node2" href="$structbool__expr.html" title=" " alt="" coords="171,447,294,553"/>
+<area shape="rect" id="node3" href="$structvalue__expr.html" title=" " alt="" coords="167,277,298,399"/>
+<area shape="rect" id="node4" href="$structprod.html" title="Base class for AST nodes." alt="" coords="180,5,285,229"/>
+</map>

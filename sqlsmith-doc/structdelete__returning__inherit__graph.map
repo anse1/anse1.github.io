@@ -1,0 +1,6 @@
+<map id="delete_returning" name="delete_returning">
+<area shape="rect" id="node1" title=" " alt="" coords="5,601,160,708"/>
+<area shape="rect" id="node2" href="$structdelete__stmt.html" title=" " alt="" coords="15,432,151,553"/>
+<area shape="rect" id="node3" href="$structmodifying__stmt.html" title=" " alt="" coords="7,277,158,384"/>
+<area shape="rect" id="node4" href="$structprod.html" title="Base class for AST nodes." alt="" coords="30,5,135,229"/>
+</map>

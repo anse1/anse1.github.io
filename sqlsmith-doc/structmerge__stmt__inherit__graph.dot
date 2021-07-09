@@ -1,0 +1,11 @@
+digraph "merge_stmt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{merge_stmt\n|+ target_table_\l+ data_source\l+ join_condition\l+ clauselist\l|+ merge_stmt()\l+ ~merge_stmt()\l+ out()\l+ accept()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{modifying_stmt\n|+ victim\l+ myscope\l|+ modifying_stmt()\l+ pick_victim()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structmodifying__stmt.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{prod\n|+ pprod\l+ scope\l+ level\l+ retries\l+ retry_limit\l|+ prod()\l+ indent()\l+ out()\l+ match()\l+ accept()\l+ fail()\l+ retry()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structprod.html",tooltip="Base class for AST nodes."];
+}

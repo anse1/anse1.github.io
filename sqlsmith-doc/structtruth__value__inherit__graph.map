@@ -1,0 +1,6 @@
+<map id="truth_value" name="truth_value">
+<area shape="rect" id="node1" title=" " alt="" coords="5,601,137,708"/>
+<area shape="rect" id="node2" href="$structbool__expr.html" title=" " alt="" coords="10,447,133,553"/>
+<area shape="rect" id="node3" href="$structvalue__expr.html" title=" " alt="" coords="6,277,137,399"/>
+<area shape="rect" id="node4" href="$structprod.html" title="Base class for AST nodes." alt="" coords="19,5,124,229"/>
+</map>

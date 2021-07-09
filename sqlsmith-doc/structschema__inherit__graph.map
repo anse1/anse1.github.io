@@ -1,0 +1,6 @@
+<map id="schema" name="schema">
+<area shape="rect" id="node1" title=" " alt="" coords="176,5,347,347"/>
+<area shape="rect" id="node2" href="$structschema__monetdb.html" title=" " alt="" coords="5,409,168,501"/>
+<area shape="rect" id="node3" href="$structschema__pqxx.html" title=" " alt="" coords="193,395,330,516"/>
+<area shape="rect" id="node4" href="$structschema__sqlite.html" title=" " alt="" coords="355,409,496,501"/>
+</map>

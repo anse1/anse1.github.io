@@ -1,0 +1,11 @@
+digraph "table"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{table\n|+ schema\l+ is_insertable\l+ is_base_table\l+ constraints\l|+ table()\l+ ident()\l+ ~table()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{named_relation\n|+ name\l|+ ident()\l+ ~named_relation()\l+ named_relation()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structnamed__relation.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{relation\n|+ cols\l|+ columns()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structrelation.html",tooltip=" "];
+}

@@ -1,0 +1,6 @@
+<map id="null_predicate" name="null_predicate">
+<area shape="rect" id="node1" title=" " alt="" coords="5,601,156,737"/>
+<area shape="rect" id="node2" href="$structbool__expr.html" title=" " alt="" coords="19,447,142,553"/>
+<area shape="rect" id="node3" href="$structvalue__expr.html" title=" " alt="" coords="15,277,146,399"/>
+<area shape="rect" id="node4" href="$structprod.html" title="Base class for AST nodes." alt="" coords="28,5,133,229"/>
+</map>

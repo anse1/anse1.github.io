@@ -1,0 +1,13 @@
+digraph "schema"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{schema\n|+ booltype\l+ inttype\l+ internaltype\l+ arraytype\l+ types\l+ tables\l+ operators\l+ routines\l+ aggregates\l+ index\land 11 more...\l|+ quote_name()\l+ summary()\l+ fill_scope()\l+ register_operator()\l+ register_routine()\l+ register_aggregate()\l+ find_operator()\l+ schema()\l+ generate_indexes()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{schema_monetdb\n||+ schema_monetdb()\l+ quote_name()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structschema__monetdb.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{schema_pqxx\n|+ c\l+ oid2type\l+ name2type\l|+ quote_name()\l+ schema_pqxx()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structschema__pqxx.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{schema_sqlite\n||+ schema_sqlite()\l+ quote_name()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structschema__sqlite.html",tooltip=" "];
+}

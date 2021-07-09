@@ -1,0 +1,7 @@
+<map id="dut_base" name="dut_base">
+<area shape="rect" id="node1" title=" " alt="" coords="237,5,323,83"/>
+<area shape="rect" id="node2" href="$structdut__libpq.html" title=" " alt="" coords="5,131,117,267"/>
+<area shape="rect" id="node3" href="$structdut__monetdb.html" title=" " alt="" coords="141,153,275,245"/>
+<area shape="rect" id="node4" href="$structdut__pqxx.html" title=" " alt="" coords="299,153,405,245"/>
+<area shape="rect" id="node5" href="$structdut__sqlite.html" title=" " alt="" coords="430,153,541,245"/>
+</map>

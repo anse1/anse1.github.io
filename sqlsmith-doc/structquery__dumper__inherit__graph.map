@@ -1,0 +1,4 @@
+<map id="query_dumper" name="query_dumper">
+<area shape="rect" id="node1" title="logger to dump all generated queries" alt="" coords="5,160,121,237"/>
+<area shape="rect" id="node2" href="$structlogger.html" title="logger base class" alt="" coords="7,5,120,112"/>
+</map>

@@ -1,0 +1,21 @@
+digraph "table_ref"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{table_ref\n|+ refs\l|+ table_ref()\l+ ~table_ref()\l+ factory()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{prod\n|+ pprod\l+ scope\l+ level\l+ retries\l+ retry_limit\l|+ prod()\l+ indent()\l+ out()\l+ match()\l+ accept()\l+ fail()\l+ retry()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structprod.html",tooltip="Base class for AST nodes."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{joined_table\n|+ type\l+ alias\l+ lhs\l+ rhs\l+ condition\l|+ out()\l+ joined_table()\l+ ident()\l+ ~joined_table()\l+ accept()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structjoined__table.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{table_or_query_name\n|+ t\l|+ out()\l+ table_or_query_name()\l+ ~table_or_query_name()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structtable__or__query__name.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{table_sample\n|+ t\l|+ out()\l+ table_sample()\l+ ~table_sample()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structtable__sample.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{table_subquery\n|+ is_lateral\l+ query\l|+ out()\l+ table_subquery()\l+ ~table_subquery()\l+ accept()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structtable__subquery.html",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{lateral_subquery\n||+ lateral_subquery()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlateral__subquery.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{target_table\n|+ victim_\l|+ out()\l+ target_table()\l+ ~target_table()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structtarget__table.html",tooltip=" "];
+}

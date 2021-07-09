@@ -1,0 +1,10 @@
+<map id="table_ref" name="table_ref">
+<area shape="rect" id="node1" title=" " alt="" coords="407,277,523,384"/>
+<area shape="rect" id="node3" href="$structjoined__table.html" title=" " alt="" coords="5,432,144,627"/>
+<area shape="rect" id="node4" href="$structtable__or__query__name.html" title=" " alt="" coords="169,476,367,583"/>
+<area shape="rect" id="node5" href="$structtable__sample.html" title=" " alt="" coords="392,476,539,583"/>
+<area shape="rect" id="node6" href="$structtable__subquery.html" title=" " alt="" coords="563,461,722,597"/>
+<area shape="rect" id="node8" href="$structtarget__table.html" title=" " alt="" coords="746,476,883,583"/>
+<area shape="rect" id="node2" href="$structprod.html" title="Base class for AST nodes." alt="" coords="413,5,518,229"/>
+<area shape="rect" id="node7" href="$structlateral__subquery.html" title=" " alt="" coords="565,675,721,752"/>
+</map>

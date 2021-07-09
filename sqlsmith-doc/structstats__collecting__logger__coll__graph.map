@@ -1,0 +1,4 @@
+<map id="stats_collecting_logger" name="stats_collecting_logger">
+<area shape="rect" id="node1" title="logger for statistics collection" alt="" coords="5,160,177,281"/>
+<area shape="rect" id="node2" href="$structlogger.html" title="logger base class" alt="" coords="35,5,148,112"/>
+</map>

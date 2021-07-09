@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="prod_visitor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structprod__visitor.html",tooltip="Base class for walking the AST."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="for_update_verify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structfor__update__verify.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="graphml_dumper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgraphml__dumper.html",tooltip=" "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="impedance_visitor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structimpedance__visitor.html",tooltip=" "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="stats_visitor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structstats__visitor.html",tooltip=" "];
+}

@@ -1,0 +1,11 @@
+digraph "schema_sqlite"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{schema_sqlite\n||+ schema_sqlite()\l+ quote_name()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{schema\n|+ booltype\l+ inttype\l+ internaltype\l+ arraytype\l+ types\l+ tables\l+ operators\l+ routines\l+ aggregates\l+ index\land 11 more...\l|+ quote_name()\l+ summary()\l+ fill_scope()\l+ register_operator()\l+ register_routine()\l+ register_aggregate()\l+ find_operator()\l+ schema()\l+ generate_indexes()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structschema.html",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{sqlite_connection\n|+ db\l+ zErrMsg\l+ rc\l|+ q()\l+ sqlite_connection()\l+ ~sqlite_connection()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structsqlite__connection.html",tooltip=" "];
+}

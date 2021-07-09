@@ -1,0 +1,9 @@
+<map id="logger" name="logger">
+<area shape="rect" id="node1" title="logger base class" alt="" coords="268,5,381,112"/>
+<area shape="rect" id="node2" href="$structast__logger.html" title=" " alt="" coords="5,182,119,259"/>
+<area shape="rect" id="node3" href="$structimpedance__feedback.html" title=" " alt="" coords="143,167,330,274"/>
+<area shape="rect" id="node4" href="$structquery__dumper.html" title="logger to dump all generated queries" alt="" coords="355,182,471,259"/>
+<area shape="rect" id="node5" href="$structstats__collecting__logger.html" title="logger for statistics collection" alt="" coords="495,160,667,281"/>
+<area shape="rect" id="node6" href="$structcerr__logger.html" title="stderr logger" alt="" coords="452,329,565,480"/>
+<area shape="rect" id="node7" href="$structpqxx__logger.html" title="logger to postgres database" alt="" coords="589,344,716,465"/>
+</map>

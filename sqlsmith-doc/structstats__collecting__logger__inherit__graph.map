@@ -1,0 +1,6 @@
+<map id="stats_collecting_logger" name="stats_collecting_logger">
+<area shape="rect" id="node1" title="logger for statistics collection" alt="" coords="48,160,220,281"/>
+<area shape="rect" id="node3" href="$structcerr__logger.html" title="stderr logger" alt="" coords="5,329,119,480"/>
+<area shape="rect" id="node4" href="$structpqxx__logger.html" title="logger to postgres database" alt="" coords="143,344,269,465"/>
+<area shape="rect" id="node2" href="$structlogger.html" title="logger base class" alt="" coords="77,5,191,112"/>
+</map>

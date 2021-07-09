@@ -1,0 +1,12 @@
+<map id="bool_expr" name="bool_expr">
+<area shape="rect" id="node1" title=" " alt="" coords="427,447,550,553"/>
+<area shape="rect" id="node4" href="$structbool__binop.html" title=" " alt="" coords="173,609,292,730"/>
+<area shape="rect" id="node8" href="$structexists__predicate.html" title=" " alt="" coords="315,609,481,730"/>
+<area shape="rect" id="node9" href="$structnull__predicate.html" title=" " alt="" coords="505,601,656,737"/>
+<area shape="rect" id="node10" href="$structtruth__value.html" title=" " alt="" coords="680,616,812,723"/>
+<area shape="rect" id="node2" href="$structvalue__expr.html" title=" " alt="" coords="423,277,554,399"/>
+<area shape="rect" id="node3" href="$structprod.html" title="Base class for AST nodes." alt="" coords="436,5,541,229"/>
+<area shape="rect" id="node5" href="$structbool__term.html" title=" " alt="" coords="5,785,129,892"/>
+<area shape="rect" id="node6" href="$structcomparison__op.html" title=" " alt="" coords="154,785,311,892"/>
+<area shape="rect" id="node7" href="$structdistinct__pred.html" title=" " alt="" coords="336,785,479,892"/>
+</map>
